@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6b396; /* Laranja terral claro */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c0754f; /* Laranja terral escuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #54463e; /* Marrom escuro */
+}
+
+#perfil {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#info {
+    text-align: center;
+}
+
+#nome {
+    font-weight: bold;
+}
+
+#experiencia, #educacao {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#experiencia li, #educacao li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#experiencia h3, #educacao h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #c0754f; /* Laranja terral escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
