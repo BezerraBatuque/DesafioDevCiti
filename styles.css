@@ -4,11 +4,13 @@ body {
     padding: 0;
     background-color: #e6b396; /* Laranja terral claro */
     color: #333;
+    
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+   
 }
 
 header {
@@ -16,6 +18,8 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    
 }
 
 header h1 {
@@ -42,6 +46,7 @@ section p {
 #perfil {
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 #perfil img {
@@ -49,7 +54,7 @@ section p {
     height: 200px;
     border-radius: 50%;
     border: 5px solid #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 #info {
@@ -60,31 +65,22 @@ section p {
     font-weight: bold;
 }
 
-#experiencia, #educacao {
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+#cafe, #história {
+    background-color: #e6b396;
+    
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
 }
 
-#experiencia li, #educacao li {
+#cafe li, #história li {
     list-style: none;
     margin-bottom: 20px;
 }
 
-#experiencia h3, #educacao h3 {
+#cafe h3, #história h3 {
     font-size: 1.6rem;
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: #c0754f; /* Laranja terral escuro */
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.9rem;
-}
+
